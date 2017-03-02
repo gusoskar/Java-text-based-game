@@ -1,0 +1,438 @@
+body{
+	font-family: Arial;
+}
+
+#wrapper{
+	overflow: hidden;
+	width: 1000px;
+	margin: auto auto;
+}
+
+#logo{
+	height: 150px;
+	width: 700px;
+	margin: auto auto;
+	float: left;
+}
+
+#navigation{
+	height: 22px;
+	width: 695px;
+	float: left;
+	padding-left: 5px;
+	padding-top: 2px;
+}
+
+#navigation a:link{color: #000; text-decoration: none;}
+#navigation a:visited{color: #000; text-decoration: none;}
+#navigation a:hover{color: #ccc; text-decoration: none;}
+#navigation a:active{color: #ccc; text-decoration: none;}
+
+#content{
+	overflow: hidden;
+	min-height: 580px;
+	width: 678px;
+	float: left;
+	clear: both;
+	padding: 10px;
+	font-size: 12px;
+	border: 1px solid #000;
+}
+
+/* Register form */
+#registerForm{
+	width: 310px;
+	background-color: #f2f2f2;
+	border: 1px dotted #ccc;
+	padding: 10px;
+	float: left;
+}
+
+#registerForm article{
+	height: 27px;
+	width: 300px;
+	margin-top: 10px;
+}
+
+#registerForm input{
+	float: right;
+}
+
+#registerForm select{
+	width: 200px;
+	float: right;
+}
+
+#registerForm span{
+	display: block;
+	width: 90px;
+	float: left;
+	margin-top: 7px;
+}
+
+#registerTerms{
+	width: 310px;
+	background-color: #f2f2f2;
+	border: 1px dotted #ccc;
+	padding: 10px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	float: left;
+}
+
+.registerTitle{
+	height: 20px;
+	width: 200px;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+/* Menu */
+#menubar{
+	height: 300px;
+	width: 240px;
+	background-color: #fff;
+	border: 1px solid #000;
+	padding: 10px;
+	margin-left: 10px;
+	float: left;
+}
+
+#menubar ul{
+	list-style-type: none;
+	margin-top: 0px;
+	padding: 0px;
+}
+
+#menubar li{
+	margin-top: 0px;
+	margin-left: 0px;
+	padding: 0px;
+}
+
+#menubar h3, h4, h5{
+	padding: 0px 0px 10px 0px;
+	margin: 0px;
+}
+
+#menubar a{font-size: 14px;}
+#menubar a:link{color: #000; text-decoration: none;}
+#menubar a:visited{color: #000; text-decoration: none;}
+#menubar a:hover{color: #ccc; text-decoration: none;}
+#menubar a:active{color: #ccc; text-decoration: none;}
+
+/* Menu Products */
+#menubarP{
+	height: 300px;
+	width: 240px;
+	background-color: #fff;
+	border: 1px solid #000;
+	padding: 10px;
+	margin-left: 10px;
+	float: left;
+}
+
+#menubarP ul{
+	list-style-type: none;
+	margin-top: 0px;
+	padding: 0px;
+}
+
+#menubarP li{
+	margin-top: 0px;
+	margin-left: 0px;
+	padding: 0px;
+}
+
+#menubarP h3, h4, h5{
+	padding: 0px 0px 10px 0px;
+	margin: 0px;
+}
+
+#menubarP a{font-size: 14px;}
+#menubarP a:link{color: #000; text-decoration: none;}
+#menubarP a:visited{color: #000; text-decoration: none;}
+#menubarP a:hover{color: #ccc; text-decoration: none;}
+#menubarP a:active{color: #ccc; text-decoration: none;}
+
+/* Menu Adminpage */
+#menubarA{
+	height: 300px;
+	width: 240px;
+	background-color: #fff;
+	border: 1px solid #000;
+	padding: 10px;
+	margin-left: 10px;
+	float: left;
+}
+
+#menubarA ul{
+	list-style-type: none;
+	margin-top: 0px;
+	padding: 0px;
+}
+
+#menubarA li{
+	margin-top: 0px;
+	margin-left: 0px;
+}
+
+#menubarA h4{
+	padding: 0px 0px 10px 0px;
+	margin: 0px;
+}
+
+#menubarA h5{
+	padding: 0px 0px 10px 0px;
+	margin: 0px;
+}
+
+#menubarA a{font-size: 14px;}
+#menubarA a:link{color: #000; text-decoration: none;}
+#menubarA a:visited{color: #000; text-decoration: none;}
+#menubarA a:hover{color: #ccc; text-decoration: none;}
+#menubarA a:active{color: #ccc; text-decoration: none;}
+
+/* ----------------------------------- */
+
+#footer{
+	height: 14px;
+	width: 700px;
+	margin: auto auto;
+	float: left;
+	clear: both;
+	font-size: 11px;
+	text-align: center;
+	margin-top: 5px;
+}
+
+/* Login box */
+#login{
+	height: 128px;
+	width: 240px;
+	background-color: #fff;
+	border: 1px solid #000;
+	float: left;
+	font-size: 11px;
+	margin-left: 10px;
+	padding: 10px;
+}
+
+#login article{
+	width: 200px;
+	height: 30px;
+	clear: both;
+	padding: 8px;
+}
+
+#login footer{
+	padding: 8px 0px 0px 8px;
+}
+
+#login input{
+	font-size: 11px;
+}
+
+.field{
+	width: 195px;
+	height: 15px;
+	margin-top: 2px;
+}
+
+.formText{
+	margin-right: 150px;
+}
+
+#error{
+	color: red;
+	font-size: 12px;
+	padding-left: 10px;
+	margin-top: 3px;
+}
+
+/* ----------------------------------- */
+#productsA{
+	overflow: hidden;
+	min-height: 580px;
+	width: 678px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#productsA h3{
+	margin-left: 10px;
+}
+
+#prouctsA ul{
+	padding: 0px;
+	margin: 0px;
+}
+
+#prouctsA li{
+	padding: 0px;
+	margin: 0px;
+}
+
+/* Random */
+.notificationY{
+	height: 20px;
+	width: 200px;
+	color: green;
+	float: left;
+	clear: both;
+	margin-top: 10px;
+}
+
+.notificationN{
+	height: 20px;
+	width: 200px;
+	color: red;
+	float: left;
+	clear: both;
+	margin-top: 10px;
+}
+
+/* Products list */
+#products{
+	overflow: hidden;
+	min-height: 480px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.product-row{
+	height: 118px;
+	width: 658px;
+	float: left;
+	clear: both;
+	margin-bottom: 10px;
+	border: 1px solid #000;
+}
+
+.product-row:nth-child(odd){
+	background-color: #ccc;
+}
+
+.product-row:nth-child(even){
+	background-color: #fff;
+}
+
+.product-img{
+	width: 110px;
+	float: left;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+
+.product-name{
+	height: 114px;
+	width: 418px;
+	float: left;
+	padding-top: 6px;
+}
+
+.product-name p{
+	margin: 0px;
+	font-size: 16px;
+}
+
+.product-info{
+	width: 120px;
+	float: left;
+}
+
+.product-info p{
+	margin-top: 8px;
+	margin-bottom: 0px;
+}
+
+.close-product-row{
+	height: 200px;
+	width: 658px;
+	float: left;
+	clear: both;
+	/*margin-bottom: 10px;
+	border: 1px solid #000;*/
+}
+
+.close-product-img img{
+	height: 200px;
+	width: 200px;
+	float: left;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+
+.close-product-name{
+	width: 263px;
+	float: left;
+	padding-top: 20px;
+	padding-left: 10px;
+}
+
+.close-product-name p{
+	margin: 0px;
+	font-size: 20px;
+}
+
+.close-product-info{
+	width: 100px;
+	float: right;
+	padding-top: 100px;
+}
+
+.close-product-info p{
+	margin-top: 8px;
+	margin-bottom: 0px;
+	font-size: 14px;
+}
+
+.close-product-description p{
+	margin-top: 40px;
+	font-size: 16px;
+}
+
+.orders-row{
+	height: 20px;
+	width: 658px;
+	float: left;
+	clear: both;
+	/*margin-bottom: 10px;*/
+	border: 1px solid #000;
+}
+
+.orders-row:nth-child(odd){
+	background-color: #ccc;
+}
+
+.orders-row:nth-child(even){
+	background-color: #fff;
+}
+
+.orders-name{
+	height: 114px;
+	width: 418px;
+	float: left;
+	padding-top: 6px;
+}
+
+.orders-name p{
+	margin: 0px;
+	font-size: 16px;
+}
+
+.orders-info{
+	width: 180px;
+	float: left;
+}
+
+.orders-info p{
+	margin-top: 8px;
+	margin-bottom: 0px;
+}
+.userpage-text p{
+	font-size:14px;
+}
+#line{
+	 text-decoration: line-through;
+}
